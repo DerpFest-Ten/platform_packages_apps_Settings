@@ -11427,4 +11427,8 @@
     <!-- Subtext for showing the option of RTT setting. [CHAR LIMIT=NONE] -->
     <string name="rtt_settings_always_visible"></string>
 
+    <!-- Gradient picker -->
+    <string name="gradient_color">Gradient picker</string>
+    <string name="gradient_summary">Gradient effect maker</string>
+
 </resources>

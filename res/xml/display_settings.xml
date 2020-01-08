@@ -204,6 +204,11 @@
             android:title="@string/theme_customization_accent_color_title"
             settings:defaultColorValue="0xFFB30000"
             android:persistent="false" />
+        <PreferenceScreen
+            android:key="gradient_themes"
+            android:title="@string/gradient_color"
+            android:summary="@string/gradient_summary"
+            android:fragment="com.android.settings.display.Gradient" />
         <ListPreference
             android:key="android.theme.customization.font"
             android:title="@string/theme_customization_font_title"/>
