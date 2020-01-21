@@ -199,9 +199,11 @@
         <ListPreference
             android:key="android.theme.customization.primary_color"
             android:title="@string/theme_customization_primary_color_title"/>
-        <ListPreference
-            android:key="android.theme.customization.accent_color"
-            android:title="@string/theme_customization_accent_color_title"/>
+        <com.derp.support.colorpicker.ColorPickerPreference
+            android:key="accent_color"
+            android:title="@string/theme_customization_accent_color_title"
+            settings:defaultColorValue="0xFFB30000"
+            android:persistent="false" />
         <ListPreference
             android:key="android.theme.customization.font"
             android:title="@string/theme_customization_font_title"/>
