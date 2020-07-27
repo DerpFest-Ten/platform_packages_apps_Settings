@@ -202,7 +202,7 @@
         <com.derp.support.colorpicker.ColorPickerPreference
             android:key="accent_color"
             android:title="@string/theme_customization_accent_color_title"
-            settings:defaultColorValue="0xFFB30000"
+            android:defaultValue="0xFFB30000"
             android:persistent="false" />
         <PreferenceScreen
             android:key="gradient_themes"
